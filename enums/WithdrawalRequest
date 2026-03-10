@@ -1,0 +1,6 @@
+package enums;
+
+public enum WithdrawalRequest {		//status of withdrawal request
+	PENDING,
+	APPROVED,
+	REJECTED}
