@@ -1,7 +1,0 @@
-package Internship_project.enums;
-
-public enum InternshipStatus {		//status of internship opportunities
-	PENDING,
-	APPROVED,
-	REJECTED,
-	FILLED}
