@@ -1,17 +1,17 @@
-package Internship_project;
+package internship_project;
 
 public abstract class User {
 	
 	private String userID;	// unique identifier of user
 	private String name;	// full name of user	
 	private String password;	//user's password
-	private filtering filters;
+	private Filtering filters;
 	
 	public User(String userID, String name, String password) {
 		this.userID = userID;
 		this.name = name;
 		this.password = password;
-		this.filters = new filtering();}		//each user gets their own filter options
+		this.filters = new Filtering();}		//each user gets their own filter options
 	
 	public String getUserID() {
 		return userID;}		// gets users unique ID
@@ -22,7 +22,7 @@ public abstract class User {
 	/*private String getPassword() {
 		return password;}*/	// gets users password, BUT SHOULD NOT BE PUBLIC MIGHT REMOVE
 	
-	public filtering getFilters() {
+	public Filtering getFilters() {
 		return filters;}
 	
 	public boolean changePassword(String oldPassword, String newPassword) {
