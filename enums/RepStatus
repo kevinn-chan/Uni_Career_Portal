@@ -1,0 +1,7 @@
+package enums;
+
+public enum RepStatus {		// status for a company representative's account
+	APPROVED,
+	REJECTED,
+	PENDING
+	}
